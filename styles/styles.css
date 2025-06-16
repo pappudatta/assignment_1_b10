@@ -37,3 +37,52 @@ nav ul{
     background-color: rgb(103, 60, 230);
     color: #FFFFFF;
 }
+/* main part_ future-section */
+.future-section{
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.future-container{
+    width: 998px;
+    height: 581px;
+    /* margin: 26px 221px 45px 221px; বিকল্প */ 
+    margin: 0px auto;
+    padding-top: 50px;
+    text-align: center;
+    /* border: 2px solid hotpink; */
+}
+.future-taitle{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    /* border: 1px solid hotpink; */
+    margin-bottom: 24px;
+}
+.future-description{
+    width: 851px;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    /* border: 1px solid red; */
+    margin: 0px 73px 0px 73px;
+}
+.btn-contact{
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: rgb(13, 19, 33);
+    margin-top: 45px;
+    padding: 21px 24px 21px 24px;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 244px;
+    height: 65px;
+}
+.btn-contact:hover{
+    background-color: rgb(103, 60, 230);
+    color: #FFFFFF;
+}
