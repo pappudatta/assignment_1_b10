@@ -1,4 +1,45 @@
-*{
+
+header{
+    margin: 0px;
+    padding: opx;
+}
+html, body{
+    font-family: "Azeret Mono";
     margin: 0px;
     padding: 0px;
+}
+/* nav styles */
+nav{
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: rgb(223, 250, 250);
+}
+nav ul{
+    display: flex;
+    margin: 10px 150px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    list-style: none;
+    
+}
+.resume-taitle{
+    font-size: 28px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.btn-primary{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 24px;
+    color:rgb(13, 19, 33);
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(223, 250, 250);
+    opacity: 0.8;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: rgb(103, 60, 230);
+    color: #FFFFFF;
 }
