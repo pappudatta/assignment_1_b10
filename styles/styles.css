@@ -203,8 +203,7 @@ padding-top: 25px;
 /* terget styles */
 .current-terget{
 width: 1140px;
-height: 1437px;
-margin: 111px auto;
+margin: 110px auto 10px;
 justify-items: center;
 text-align: center;
 /* background-color: rgb(248, 246, 248); */
@@ -306,4 +305,57 @@ text-align: center;
     text-align: left;
     color: rgb(13, 19, 33);
     margin: 24px 0px;
+}
+/* support section */
+.support-section{
+    width: 1140px;
+    /* height: 350px; */
+    margin: 49px auto 45px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/handshake.jpg);
+    /* filter: brightness(50%); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    align-items: center;
+    border-radius: 16px;
+    text-align: center;
+    border: 1px solid gold;
+}
+.support-items{
+    margin:64px 48px 64px 48px;
+    /* border: 1px solid greenyellow; */
+}
+.support-taitles{
+    font-size: 32px;
+    font-weight: 800;
+    color: #FFFFFF;
+    align-items: center;
+}
+.support-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    margin-bottom: 24px;
+}
+.support-items input{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+input::placeholder{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(13, 19, 33, 0.4);
+    padding: 25px;
+}
+.btn-submit{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 16px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
 }
