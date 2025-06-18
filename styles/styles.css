@@ -203,7 +203,7 @@ padding-top: 25px;
 /* terget styles */
 .current-terget{
 width: 1140px;
-height: 460px;
+height: 1437px;
 margin: 111px auto;
 justify-items: center;
 text-align: center;
@@ -259,10 +259,51 @@ text-align: center;
     font-weight: 700;
     text-align: left;
     padding-left: 40px;
-    text-decoration: underline;
     color: rgb(13, 19, 33);
     margin: 24px 0px;
 }
 .left-img{
     padding-left: 40px;
+}
+/* next terget styles */
+.next-terget{
+    margin-top: 111px;
+}
+.fremwork-container{
+    margin-bottom:px;
+}
+.react-part{
+    display: flex;
+    text-align: left;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+.frework-itms{
+    /* border: 1px solid green; */
+    margin: 40px 40px 40px 25px;
+    
+}
+.terget-img img{
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: 67px 0px 67px 40px;
+}
+.fremwork-taitles{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.fremwork-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+}
+.learn-detailes {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    color: rgb(13, 19, 33);
+    margin: 24px 0px;
 }
