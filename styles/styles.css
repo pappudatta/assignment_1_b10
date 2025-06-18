@@ -311,8 +311,7 @@ text-align: center;
 /* support section */
 .support-section{
     width: 1140px;
-    /* height: 350px; */
-    margin: 49px auto 45px;
+    margin: 30px auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/handshake.jpg);
     /* filter: brightness(50%); */
     background-repeat: no-repeat;
@@ -365,6 +364,7 @@ input::placeholder{
     background: rgb(255, 255, 255);
     cursor: pointer;
     transition: 0.3s;
+    border: none;
 }
 .btn-submit:hover{
    background-color: rgb(103, 60, 230);
