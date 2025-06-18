@@ -110,6 +110,7 @@ nav ul{
     /* border: 2px solid rgb(11, 31, 247); */
     margin: 25px auto;
     border-radius: 16px;
+    padding-bottom: 35px;
     background: rgba(13, 19, 33, 0.02);
 }
 .contianer-items{
@@ -155,10 +156,11 @@ nav ul{
     cursor: pointer;
     opacity: 0.7;
     padding: 12px 20px 12px 20px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .btn-learn-more:hover{
-    background-color: aqua;
+    background-color: rgb(103, 60, 230);
+    color: #FFFFFF;
 }
 
 /* inspriration styles */
@@ -344,6 +346,9 @@ text-align: center;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 30px;
 }
 input::placeholder{
     font-size: 20px;
@@ -358,4 +363,43 @@ input::placeholder{
     padding: 17px 20px 17px 20px;
     border-radius: 8px;
     background: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s;
 }
+.btn-submit:hover{
+   background-color: rgb(103, 60, 230);
+    color: #FFFFFF;
+}
+/* footer styles */
+footer{
+    background: rgba(13, 19, 33, 0.03);
+    margin-bottom: 0px;
+}
+.footer-container{
+    display: flex;
+    width: 1140px;
+    margin: 0px auto;
+    /* margin: 38.5px 150px 38.5px 150px; */
+    justify-content: space-between;
+    /* border: 1px solid gold; */
+    align-items: center;
+}
+.footer-taitles{
+    font-size: 20px;
+    font-weight: 600;
+}
+.social-icon img{
+    margin-left: 24.24px;
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+    
+}
+.social-icon a{
+    text-decoration: none;
+    
+}
+.social-icon img:hover {
+  transform: scale(1.2);
+}
+
